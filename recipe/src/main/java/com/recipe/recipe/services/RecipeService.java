@@ -1,4 +1,10 @@
 package com.recipe.recipe.services;
 
-public class RecipeService {
+import com.recipe.recipe.model.Recipe;
+
+import java.util.Set;
+
+public interface RecipeService {
+
+    Set<Recipe> getRecipes();
 }
