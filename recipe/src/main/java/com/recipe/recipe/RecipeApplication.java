@@ -1,5 +1,6 @@
 package com.recipe.recipe;
 
+import com.recipe.recipe.controler.IndexControler;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,7 +13,7 @@ public class RecipeApplication {
 
         IndexControler indexControler = (IndexControler) bean.getBean("indexControler");
 
-        System.out.println(indexControler.findByCategoryName("American"));
+
     }
 
 }
