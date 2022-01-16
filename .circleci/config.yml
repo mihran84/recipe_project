@@ -22,5 +22,5 @@ jobs:
 
     steps:
       - checkout
-
+      - run: mvn install
       - run: mvn integration-test
